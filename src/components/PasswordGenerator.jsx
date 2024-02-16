@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import Spinner from 'react-bootstrap/Spinner';
 import './PasswordGenerator.css'
+import { Container } from 'react-bootstrap';
 
 
 const PasswordGenerator = ({handleClick, password}) => {
@@ -46,7 +47,7 @@ const PasswordGenerator = ({handleClick, password}) => {
                         <Spinner animation="border" variant="success" className='m-5'/>-
                     </div>
                     ) : (
-                            <div className={hovered ? 'boton hover' : 'boton '}
+                            <Container className={hovered ? 'boton hover' : 'boton '}
                             onMouseEnter={handleMouseEnter}
                             onMouseLeave={handleMouseLeave}>
                                 <div className="container mt-5 border border-dark p-5 rounded-circle bg-dark cajaMain '">
@@ -68,7 +69,7 @@ const PasswordGenerator = ({handleClick, password}) => {
                                             </div>
                                         )}
                                 </div>
-                            </div>
+                            </Container>
                     )
             }
         </div>
