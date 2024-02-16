@@ -34,8 +34,8 @@ const PasswordGenerator = ({handleClick, password}) => {
                     </div>
                     ) : (
                             <div className="container mt-5 border border-dark p-5 rounded-circle bg-dark">
-                                <h1 className="display-4 text-center mb-5 text-white fw-bold">Secure Password Generator</h1>
-                                <p className="lead text-center mb-5 bg-secondary p-5 rounded-circle ">
+                                <h1 className="display-4 text-center m-5 text-white fw-bold">Secure Password Generator</h1>
+                                <p className="lead text-center m-5 bg-secondary p-5 rounded-circle ">
                                     It is crucial to use strong and unique passwords for your online accounts
                                     to protect your sensitive information from unauthorized access. 
                                     This password generator tool helps you create secure passwords that
